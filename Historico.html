@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Index.css">
+    <script src="index.js" defer></script>
+    <title>TextoFoda.TXT</title>
+</head>
+<body>
+    <header>
+        <h1>Historico de compras</h1>
+    </header>
+
+    <nav>
+        <a href="Index.html">Pagina Principal</a>
+        <a href="Funcionarios.html">Funcionários</a>
+        <a href="Estoque.html">Controle de Estoque</a>
+        <a href="Adicionar.html">Adicionar Produto</a>
+        <a href="Compras.html">Compras</a>
+        <a href="Historico.html">Historico de compras</a>
+    </nav>
+
+    <main>
+
+        <form action="">
+
+            <select id="metodo" name="metodo">
+                <option value="" disabled selected>Metodo que foi utilizado</option>
+                <option value="Cartão Credito">Cartão Crédito</option>
+                <option value="Cartão Debito">Cartão Débito</option>
+                <option value="Pix">Pix</option>
+                <option value="Boleto">Boleto</option>
+            </select><br>
+
+            <select id="produto" name="produto">
+                <option value="" disabled selected>Produto que foi comprado</option>
+                <option value="Miojo Galinha Caipira">Miojo Galinha Caipira</option>
+                <option value="Miojo Galinha">Miojo Galinha</option>
+                <option value="Miojo Carne">Miojo Carne</option>
+                <option value="Miojo Galinha Assado Com Toque De Limão">Miojo Galinha Assado Com Toque De Limão</option>
+                <option value="Miojo Doce Beijinho">Miojo Doce Beijinho</option>
+            </select><br>
+
+            <input type="number" id="quantidade" name="quantidade" placeholder="Quantidade comprada"><br>
+
+            <input type="email" id="email" name="email" placeholder="Email utilizado"><br>
+
+            <input type="date" id="data" name="data" placeholder="Data da compra"><br>
+
+            <input type="time" id="horario" name="horario" placeholder="Horário da compra"><br>
+            
+            <label style="font-size: large;" for="funcionario"><b>Funcionario que lhe atendeu</b></label><br>
+            <input type="radio" id="Dudu Splite" name="funcionario" value="Dudu Splite">
+            <label for="Masculino">Dudu Splite</label><br>
+                        
+            <input type="radio" id="Guilimão" name="funcionario" value="Guilimão">
+            <label for="Feminino">Guilimão</label><br>
+        </form>
+
+    </main>
+
+    <footer> Siga-nos nas redes sociais!
+        <br>
+        <a href="https://bsky.app/profile/uselolja.bsky.social">
+            <img src="TwitterXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.jpeg"/>
+        </a>
+        <a href="https://www.instagram.com/uselolja/">
+            <img src="Instagram.jpeg"/>
+        </a>
+        <a href="https://www.facebook.com/uselolja/?locale=pt_BR">
+            <img src="FaceBook.png"/>
+        </a>
+    </footer>
+</body>
+</html>
